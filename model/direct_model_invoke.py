@@ -1,7 +1,7 @@
 import os
 from langchain.chat_models import init_chat_model
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = "<HUGGINGFACEHUB_API_TOKEN>"
 
 def test_chat_model():
 
